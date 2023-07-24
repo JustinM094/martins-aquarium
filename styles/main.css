@@ -1,0 +1,86 @@
+body {
+    background:rgb(255, 255, 255);
+}
+
+#title {
+    font-family: 'Hello Dina Script', sans-serif;
+    width: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(20, 20, 20);
+    background-color: rgba(40, 164, 173, 0.637);
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5em;
+}
+
+.fishList {
+    flex-basis: 25%;
+    margin: 3em;
+    border-style: solid;
+    border-color: black; 
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 5px rgba(18, 80, 95, 0.842);
+    background-color: rgba(40, 164, 173, 0.637);
+    justify-content: center;
+}
+
+.fish-img {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+.visitorTips, .harvestLocations {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 1em;
+    margin:  2em;
+    box-shadow: 10px 10px 5px rgba(18, 80, 95, 0.842);
+    background-color: rgba(40, 164, 173, 0.637);
+}
+
+
+aside {
+    width: 20%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+
+aside > p {
+    margin: 0.5rem;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content-wrapper > div {
+    flex: 0 0 70%;
+}
+
+.careTips {
+    height:max-content;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 1em;
+    margin: 2em;
+
+    font-style: italic;
+    color: #0d0d0e;
+    box-shadow: 10px 10px 5px rgba(18, 80, 95, 0.842);
+    background-color: rgba(40, 164, 173, 0.637);
+}
