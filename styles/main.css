@@ -1,11 +1,11 @@
 body {
-    background:rgb(255, 255, 255);
+    background:seashell;
 }
 
 #title {
     font-family: 'Hello Dina Script', sans-serif;
     width: auto;
-    padding: 20px;
+    padding: 2em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -14,12 +14,13 @@ body {
 }
 
 #container {
+    font-family: 'Hello Dina Script', sans-serif;
     display: flex;
     flex-wrap: wrap;
     margin-top: 5em;
 }
 
-.fishList {
+.fish-card{
     flex-basis: 25%;
     margin: 3em;
     border-style: solid;
@@ -39,10 +40,11 @@ body {
 
 
 .visitorTips, .harvestLocations {
+    font-family: 'Hello Dina Script', sans-serif;
     border: 1px solid black;
     border-radius: 15px;
     padding: 1em;
-    margin:  2em;
+    margin:  10em;
     box-shadow: 10px 10px 5px rgba(18, 80, 95, 0.842);
     background-color: rgba(40, 164, 173, 0.637);
 }
@@ -83,4 +85,12 @@ aside > p {
     color: #0d0d0e;
     box-shadow: 10px 10px 5px rgba(18, 80, 95, 0.842);
     background-color: rgba(40, 164, 173, 0.637);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5em;
+    background-color: rgba(40, 164, 173, 0.637);
+    color: #0d0d0e;
 }
