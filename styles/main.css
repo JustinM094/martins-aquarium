@@ -15,8 +15,6 @@ body {
 
 #container {
     font-family: 'Hello Dina Script', sans-serif;
-    display: flex;
-    flex-wrap: wrap;
     margin-top: 5em;
 }
 
@@ -84,8 +82,7 @@ aside > p {
     border-style: solid;
     border-radius: 15px;
     padding: 1em;
-    margin: 2em;
-
+    margin: 3em;
     font-style: italic;
     color: #0d0d0e;
     box-shadow: 10px 10px 5px rgba(18, 80, 95, 0.842);
