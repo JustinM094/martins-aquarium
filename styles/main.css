@@ -32,6 +32,11 @@ body {
     justify-content: center;
 }
 
+.fish__image {
+    width: 20em;
+    height: auto;
+}
+
 .fish-img {
     width: 300px;
     height: auto;
