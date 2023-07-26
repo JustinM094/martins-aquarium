@@ -42,7 +42,7 @@ body {
 }
 
 
-.visitorTips, .harvestLocations {
+.visitorTips {
     font-family: 'Hello Dina Script', sans-serif;
     border: 1px solid black;
     border-radius: 15px;
@@ -50,6 +50,21 @@ body {
     margin:  10em;
     box-shadow: 10px 10px 5px rgba(18, 80, 95, 0.842);
     background-color: rgba(40, 164, 173, 0.637);
+}
+
+.harvestLocations {
+    font-family: 'Hello Dina Script', sans-serif;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 1em;
+    margin:  10em;
+    box-shadow: 10px 10px 5px rgba(18, 80, 95, 0.842);
+    background-color: rgba(40, 164, 173, 0.637);
+}
+
+.location__image {
+    width: 20em;
+    height: auto;
 }
 
 
