@@ -74,6 +74,43 @@ const database = {
             temperature: "200 degrees",
             salinity: "35 parts per thousand"
         }
+    ],
+    locations: [
+        {
+            id: 1,
+            image: "https://traveladdicts.net/wp-content/uploads/2022/03/Three-Sisters-Spring-Crystal-River.jpg",
+            name: "Crystal River"
+        },
+        {
+            id: 2,
+            image: "https://media.greenmatters.com/brand-img/_IvEQLQuV/0x0/fun-facts-about-coral-reefs-1686576170480.jpg",
+            name: "Coral Reef"
+        },
+        {
+            id: 3,
+            image: "https://photos.demandstudios.com/getty/article/163/241/71042561.jpg",
+            name: "Open Ocean"
+        },
+        {
+            id: 4,
+            image: "https://www.explore.com/img/gallery/the-prettiest-waters-around-the-world/intro-1667491463.jpg",
+            name: "Tropical Waters"
+        },
+        {
+            id: 5,
+            image: "https://hips.hearstapps.com/hmg-prod/images/rays-of-sunlight-into-the-underwater-cave-royalty-free-image-1665512456.jpg",
+            name: "Deep Sea"
+        },
+        {
+            id: 6,
+            image: "https://s.hdnux.com/photos/01/06/66/47/18573803/4/rawImage.jpg",
+            name: "Coastal Waters"
+        },
+        {
+            id: 7,
+            image: "https://geographical.co.uk/wp-content/uploads/shutterstock_1894838764-1200x799.jpg",
+            name: "Coral Reefs"
+        }
     ]
 }
 
@@ -85,6 +122,9 @@ export const getTips = () => {
     return database.tips.map(tips => ({...tips}))
 }
 
+export const getPlaces = () => {
+    return database.locations.map(location => ({...location}))
+}
 
 export const mostHolyFish = () => {
     // 3, 6, 9, 12, etc... fish
